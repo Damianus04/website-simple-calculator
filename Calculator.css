@@ -1,0 +1,24 @@
+.body-padding {
+  padding: 30px;
+}
+.card-style {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+}
+
+#record {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #919191;
+}
+#output {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+}

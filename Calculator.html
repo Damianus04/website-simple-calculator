@@ -1,0 +1,197 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Calculator css -->
+    <link rel="stylesheet" href="Calculator.css" />
+  </head>
+  <body class="body-padding">
+    <div class="container">
+      <div class="card border-success mb-3 mx-auto" style="max-width: 30rem;">
+        <div class="card-header bg-transparent border-success card-style">
+          CALCULATOR
+        </div>
+        <div id="result">
+          <div id="record">
+            <p id="record-value"></p>
+          </div>
+          <div id="output">
+            <p id="output-value"></p>
+          </div>
+        </div>
+        <div class="card-body text-success" id="keyboard">
+          <div class="row" style="padding: 10px">
+            <div class="col">
+              <button
+                class="btn btn-primary btn-block number"
+                id="7"
+                onclick=""
+              >
+                7
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-primary btn-block number"
+                id="8"
+                onclick=""
+              >
+                8
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-primary btn-block number"
+                id="9"
+                onclick=""
+              >
+                9
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-danger btn-block operator"
+                id="+"
+                onclick=""
+              >
+                +
+              </button>
+            </div>
+          </div>
+          <div class="row" style="padding: 10px">
+            <div class="col">
+              <button
+                class="btn btn-primary btn-block number"
+                id="4"
+                onclick=""
+              >
+                4
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-primary btn-block number"
+                id="5"
+                onclick=""
+              >
+                5
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-primary btn-block number"
+                id="6"
+                onclick=""
+              >
+                6
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-danger btn-block operator"
+                id="-"
+                onclick=""
+              >
+                -
+              </button>
+            </div>
+          </div>
+          <div class="row" style="padding: 10px">
+            <div class="col">
+              <button
+                class="btn btn-primary btn-block number"
+                id="1"
+                onclick=""
+              >
+                1
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-primary btn-block number"
+                id="2"
+                onclick=""
+              >
+                2
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-primary btn-block number"
+                id="3"
+                onclick=""
+              >
+                3
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-danger btn-block operator"
+                id="*"
+                onclick=""
+              >
+                x
+              </button>
+            </div>
+          </div>
+          <div class="row" style="padding: 10px">
+            <div class="col">
+              <button
+                class="btn btn-secondary btn-block operator"
+                id="clear"
+                onclick=""
+              >
+                C
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-primary btn-block number"
+                id="0"
+                onclick=""
+              >
+                0
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-success btn-block operator"
+                id="="
+                onclick=""
+              >
+                =
+              </button>
+            </div>
+            <div class="col">
+              <button
+                class="btn btn-danger btn-block operator"
+                id="/"
+                onclick=""
+              >
+                :
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer bg-transparent border-success text-center">
+          operate the calculator by clicking the numbers and the operators in
+          the box
+        </div>
+      </div>
+    </div>
+
+    <script src="Calculator.js"></script>
+  </body>
+</html>
